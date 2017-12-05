@@ -5,7 +5,7 @@
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
-  tools:context="cc.noharry.vanillahelper.MainActivity">
+  tools:context="cc.noharry.vanillahelper.ui.activity.MainActivity">
 
   <TextView
     android:layout_width="wrap_content"
@@ -15,5 +15,10 @@
     app:layout_constraintLeft_toLeftOf="parent"
     app:layout_constraintRight_toRightOf="parent"
     app:layout_constraintTop_toTopOf="parent"/>
+  <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/camera"
+    />
 
 </android.support.constraint.ConstraintLayout>
